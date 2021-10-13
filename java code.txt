@@ -16,3 +16,151 @@ class TeamLeader(TeamMember, Worker):
       Worker.__init__(self, pay, jobtitle)
       print("Name: {}, Pay: {}, Exp: {}".format(self.name, self.pay, self.exp))
 TL = TeamLeader('Jake', 10001, 250000, 'Scrum Master', 5)
+
+
+
+
+
+
+###WAP to perform arithematic operations
+
+import java.util.Scanner;
+
+public class ArithmeticOperation {
+
+   public static void main(String[] args) {
+        
+       
+        Scanner in = new Scanner(System.in);
+
+        // Input two numbers from user
+        System.out.println("Enter first number :");
+        int num1 = in.nextInt();
+        System.out.println("Enter second number :");
+        int num2 = in.nextInt();
+        
+
+        // Perform arithmetic operations.
+        int sum 		= num1 + num2;
+        int difference 	= num1 - num2;
+        int product 	= num1 * num2;
+        int quotient	= num1 / num2;
+        int modulo	    = num1 % num2;
+        
+
+        // Print result to console.
+        System.out.println("Sum : "         + sum);
+        System.out.println("Difference : "  + difference);
+        System.out.println("Product : "     + product);
+        System.out.println("Quotient : "    + quotient);
+        System.out.println("Modulo : "      + modulo);
+    }
+}
+
+
+
+##palindrome
+
+def isPalindrome(n: int) -> bool:
+ 
+    # Find reverse of n
+    rev = 0
+    i = n
+    while i > 0:
+        rev = rev * 10 + i % 10
+        i //= 10
+ 
+    # If n and rev are same,
+    # then n is palindrome
+    return (n == rev)
+ 
+# prints palindrome between min and max
+def countPal(minn: int, maxx: int) -> None:
+    for i in range(minn, maxx + 1):
+        if isPalindrome(i):
+            print(i, end = " ")
+ 
+# Driver Code
+if __name__ == "__main__":
+    countPal(100, 2000)
+    
+   
+###AP
+
+def sumofAP(a, n, d):
+    total = (n * (2 * a + (n - 1) * d)) / 2
+    return total
+
+a = int(input("Please Enter First Number of an A.P Series: : "))
+n = int(input("Please Enter the Total Numbers in this A.P Series: : "))
+d = int(input("Please Enter the Common Difference : "))
+
+total = sumofAP(a, n, d)
+print("\nThe Sum of Arithmetic Progression Series = " , total)
+
+
+
+###Fabinocie
+
+def Fibonacci(n):
+   
+    # Check if input is less than 0 then it will print incorrect input
+    if n < 0:
+        print("Incorrect input")
+ 
+    # Check if n is equal to 0 then it will return 0
+    elif n == 0:
+        return 0
+ 
+    # Check if n is 1,2 it will return 1
+    elif n == 1 or n == 2:
+        return 1
+ 
+    else:
+        return Fibonacci(n-1) + Fibonacci(n-2)
+ print(Fibonacci(9))
+
+
+###list empty or not checking
+
+def Enquiry(lis1):
+    if len(lis1) == 0:
+        return 0
+    else:
+        return 1
+          
+
+lis1 = []
+if Enquiry(lis1):
+    print ("The list is not empty")
+else:
+    print("Empty List"
+
+
+##array in reverse order
+
+
+public class ReverseArray {  
+    public static void main(String[] args) {      
+          
+           
+        int [] arr = new int [] {1, 2, 3, 4, 5};   
+          
+        System.out.println("Original array: ");  
+        for (int i = 0; i < arr.length; i++) {   
+            System.out.print(arr[i] + " ");   
+        }    
+          
+        System.out.println();  
+          
+        System.out.println("Array in reverse order: ");  
+        //Loop through the array in reverse order  
+        for (int i = arr.length-1; i >= 0; i--) {   
+            System.out.print(arr[i] + " ");   
+        }    
+    }  
+}  
+
+
+    
+    
