@@ -248,6 +248,9 @@ public class PrintArray {
     }  
 }  
 
+output:Elements of given array: 
+       1 2 3 4 5 
+
 
 ###elements of array in reverse order
 
@@ -268,6 +271,10 @@ public class ReverseArray {
     }  
 }  
 
+output: Original array: 
+          1 2 3 4 5 
+        Array in reverse order: 
+          5 4 3 2 1 
 
 ###duplicate values in an array
 
@@ -286,7 +293,13 @@ public class DuplicateElement {
             }  
         }  
     }  
-}  
+}
+
+output: Duplicate elements in given array: 
+         2
+         3
+         8
+
 
 ###sorting of array
 
@@ -307,6 +320,16 @@ System.out.println(array[i]);
 }   
 }  
 }  
+
+output: Elements of array sorted in ascending order: 
+         5
+         12
+         22
+         23
+         34
+         67
+         90
+         109
 
 ###prime number
 
@@ -350,6 +373,8 @@ System.out.println("The reverse of the given number is: " + reverse);
 }  
 }  
 
+output: The reverse of the given number is 654321
+
 ###total number of character in a string
 
 public class CountCharacter    
@@ -365,6 +390,7 @@ public class CountCharacter
     }    
 }
 
+output:Total number of characters in a string 11
 
 ###Binary sort
 
