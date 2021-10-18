@@ -356,6 +356,9 @@ public class PrimeExample{
 }    
 }   
 
+Output:n=4 is not prime number
+       n=3 is prime number
+
 ###reverse of 123456
 
 public class ReverseNumberExample1   
@@ -394,7 +397,7 @@ output:Total number of characters in a string 11
 
 ###Binary sort
 
-class BinarySearchExample{  
+public class BinarySearchExample{  
  public static void binarySearch(int arr[], int first, int last, int key){  
    int mid = (first + last)/2;  
    while( first <= last ){  
@@ -419,5 +422,7 @@ class BinarySearchExample{
         binarySearch(arr,0,last,key);     
  }  
 }  
+
+output:Element is found at index: 2
 
     
