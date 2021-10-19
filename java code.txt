@@ -425,4 +425,110 @@ public class BinarySearchExample{
 
 output:Element is found at index: 2
 
+
+###polygon
+
+
+interface Polygon {
+  void getArea(int length, int breadth);
+}
+
+// implement the Polygon interface
+class Rectangle implements Polygon {
+
+  // implementation of abstract method
+  public void getArea(int length, int breadth) {
+    System.out.println("The area of the rectangle is " + (length * breadth));
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Rectangle r1 = new Rectangle();
+    r1.getArea(5, 6);
+  }
+}
+
+
+
+interface Polygon {
+  void getArea(int length, int breadth);
+}
+
+class Square implements Polygon {
+
+  // implementation of abstract method
+  public void getArea(int lengthh) {
+    System.out.println("The area of the square is " + (length * length));
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Square s1 = new Square();
+    s1.getArea(5, 5);
+  }
+}
+
+
+
+interface Polygon {
+  void getArea(int base,int height);
+}
+
+class Triangle implements Polygon {
+
+  // implementation of abstract method
+  public void getArea(int base,int height) {
+    System.out.println("The area of the triangle is " + (l/2 *base * height));
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Triangle t1 = new Triangle();
+    t1.getArea(5, 5);
+  }
+}
+
+
+interface Polygon {
+  void getArea(int radius);
+}
+
+class Circle implements Polygon {
+
+  // implementation of abstract method
+  public void getArea(int radius) {
+    System.out.println("The area of the circle is " + (pi*radius*radius));
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Circle c1 = new Circle();
+    c1.getArea(5);
+  }
+}
+
+
+interface Polygon {
+  void getArea(int length, int breadth);
+}
+
+class Hexagon implements Polygon {
+
+  // implementation of abstract method
+  public void getArea(int side) {
+    System.out.println("The area of the hexagon is " + ((3/2) * sqrt(3) * side*side);
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Hexagon h1 = new Hexagon();
+    s1.getArea(5);
+  }
+}
+
     
